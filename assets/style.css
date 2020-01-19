@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
-
-/* Navigation */
-
-
-# nav-bar {
-    position: sticky;
-    top: 0;
-    z-index: 10010;
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    padding-top: 65px;
 }
 
+
+/* -----------------   Navigation   ----------------- */
+
+.navbar {
+    background-color: #ffff;
+}
 
 .navbar img {
     height: 50px;
@@ -22,27 +25,21 @@
 }
 
 .navbar-nav li a {
-    float: right;
-    text-align: left;
+    float: none;
+    text-align: center;
 }
 
-#nav-bar ul li a:hover {
-    color: #039387!important;
+.navbar-light .navbar-nav .nav-item {
+    color: #666666;
+    padding-top: .8rem;
 }
 
-.navbar {
-    background: #fff;
+.navbar-light .navbar-nav .nav-cta  {
+    color: #0393A7!important;
 }
 
-.navbar-toggler {
-    border: none!important;
-}
 
-.nav-link {
-    color: #555!important;
-    font-size: 16px
-}
-
-.nav-cta {
-    color: #039387!important;
+/* -----------------   Landing Page   ----------------- */
+.home-inner {
+    background-image: url(https://pixabay.com/images/id-3561062/);
 }
