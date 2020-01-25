@@ -11,7 +11,7 @@ body {
 /* -----------------   Navigation   ----------------- */
 
 .navbar {
-    background-color: #ffff;
+    background-color: #fff;
 }
 
 .navbar img {
@@ -21,11 +21,9 @@ body {
 
 .navbar-nav li {
     padding: 0 5px;
-    
 }
 
 .navbar-nav li a {
-    float: none;
     text-align: center;
 }
 
@@ -35,11 +33,25 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-cta  {
-    color: #0393A7!important;
+    color: #fff!important;
+    font-weight: bold;
 }
 
+.navbar .navbar-nav .btn-light {
+    color: #fff!important;
+    background-color: #0393A7!important;
+    border-radius: .4rem;
+}
+
+.navbar .navbar-nav .btn-light:hover {
+  background-color: #55D104!important; /* Green */
+}
 
 /* -----------------   Landing Page   ----------------- */
-.home-inner {
-    background-image: url(https://pixabay.com/images/id-3561062/);
+.jumbotron {
+    background-image: url(https://www.freepik.com/free-photos-vectors/calendar"/a>);
+    height: auto;
 }
+
+
+/* -----------------   Calendar photo created by rawpixel.com - www.freepik.com  Navigation   ----------------- */
