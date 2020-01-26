@@ -48,9 +48,15 @@ body {
 }
 
 /* -----------------   Hero Section   ----------------- */
-.jumbotron .hero {
-    background: url('/assets/hero_image.jpg') top left/cover no-repeat;
+.jumbotron {
+    background: url('images/hero_image.jpg') no-repeat center center fixed;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    background-size: 100% 100%;
+    color: #fff!important;
+    
 }
+
    
 .jumbotron .btn-lg {
     color: #fff!important;
@@ -59,9 +65,29 @@ body {
 }
 
 .jumbotron .btn-lg:hover {
-  background-color: #55D104!important;
-  text-decoration: none;
-  
+    background-color: #55D104!important;
+    text-decoration: none;
 }
 
-/* -----------------   Calendar photo created by rawpixel.com - www.freepik.com  Navigation   ----------------- */
+/* -----------------   Welcome Section  ----------------- */
+
+.welcome .btn-lg {
+    color: #fff!important;
+    background-color: #0393A7!important;
+    border: none;
+}
+
+.welcome .btn-lg:hover {
+  background-color: #55D104!important;
+  text-decoration: none;
+
+p.welcome {
+    text-align: left;
+}
+
+
+/* -----------------   Services Section  ----------------- */
+
+
+
+/* -----------------   Partners Section  ----------------- */
