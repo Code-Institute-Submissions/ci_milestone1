@@ -44,14 +44,24 @@ body {
 }
 
 .navbar .navbar-nav .btn-light:hover {
-  background-color: #55D104!important; /* Green */
+  background-color: #55D104!important; 
 }
 
-/* -----------------   Landing Page   ----------------- */
-.jumbotron {
-    background-image: url(https://www.freepik.com/free-photos-vectors/calendar"/a>);
-    height: auto;
+/* -----------------   Hero Section   ----------------- */
+.jumbotron .hero {
+    background: url('/assets/hero_image.jpg') top left/cover no-repeat;
+}
+   
+.jumbotron .btn-lg {
+    color: #fff!important;
+    background-color: #0393A7!important;
+    border: none;
 }
 
+.jumbotron .btn-lg:hover {
+  background-color: #55D104!important;
+  text-decoration: none;
+  
+}
 
 /* -----------------   Calendar photo created by rawpixel.com - www.freepik.com  Navigation   ----------------- */
