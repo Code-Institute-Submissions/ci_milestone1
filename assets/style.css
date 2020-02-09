@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     color: #666666;
-    padding-top: 65px;
+    padding-top: 1rem;
 }
 
 
@@ -44,15 +42,17 @@ body {
 }
 
 .navbar .navbar-nav .btn-light:hover {
-  background-color: #55D104!important; 
+  background-color: #24b541!important; 
 }
 
 /* -----------------   Hero Section   ----------------- */
 .jumbotron {
-    background: url('images/hero_image.jpg') no-repeat center ;
+    background-image: url('images/hero_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;    
     padding-top: 17%;
     padding-bottom: 17%;
-    background-size: 100% 100%;
     color: #fff!important;
 }
    
@@ -63,21 +63,30 @@ body {
 }
 
 .jumbotron .btn-lg:hover {
-    background-color: #55D104!important;
+    background-color: #24b541!important;
     text-decoration: none;
 }
 
+
 /* -----------------   Welcome Section  ----------------- */
 
-.welcome .btn-lg {
+.welcome {
+    padding-bottom: 5rem;
+}
+
+.welcome .btn {
     color: #fff!important;
     background-color: #0393A7!important;
     border: none;
 }
 
-.welcome .btn-lg:hover {
-  background-color: #55D104!important;
+.welcome .btn:hover {
+  background-color: #24b541!important;
   text-decoration: none;
+}
+
+.welcome .input-group-btn {
+    padding-left: 1rem;
 }
 
 /* -----------------   Services Section  ----------------- */
@@ -89,6 +98,7 @@ body {
 	position: relative;
 	overflow: hidden;	
 }
+
 .services .des{
 	background: #0393A7;
 	color: #fff;
@@ -98,17 +108,32 @@ body {
 	position: absolute;
 	width: 89%;
 	bottom: 0px;
-
-
 }
+
 .services .item:hover .des{
 	height: 100%;
 	background:#0393A77d;
-    position: absolute;
-	width: 89%;
-	padding: 5em;
+    padding: 70px 0;
+    text-align: center;
 	top: 0;
 	border-top-right-radius: 0;
+	font-size: 1.5rem;
+}
+
+/* -----------------   Carousel Section  ----------------- */
+.carousel{
+  margin-top: 70px;
+  padding-bottom: 2rem;
+  background-color: #666666;
+}
+.carousel-inner{
+  height: 100px;
+}
+.carousel-caption{
+  color: #fff;
+  font-style: italic;
+  top: 50%;
+  bottom: 50%;
 }
 
 
@@ -116,4 +141,44 @@ body {
 /* -----------------   Partners Section  ----------------- */
 .partners {
     padding-top: 5rem;
+}
+
+
+
+
+/* -----------------   Welcome Section  ----------------- */
+
+.contactus {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.contactus .btn {
+    color: #fff!important;
+    background-color: #0393A7!important;
+    border: none;
+}
+
+.contactus .btn:hover {
+  background-color: #24b541!important;
+  text-decoration: none;
+}
+
+.contactus .input-group-btn {
+    padding-left: 1rem;
+}
+
+.contactus-input {
+    padding-bottom: 1rem;
+}
+
+#contactsubmitbtn {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+#contactusheader {
+    padding-top: .5rem;
 }
