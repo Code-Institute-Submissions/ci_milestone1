@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #666666;
     padding-top: 1rem;
+    background-color: D0ECF0;
 }
 
 
@@ -50,7 +51,7 @@ body {
     background-image: url('images/hero_image.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;    
+    background-size: 100% 100%;
     padding-top: 17%;
     padding-bottom: 17%;
     color: #fff!important;
@@ -87,11 +88,14 @@ body {
 
 .welcome .input-group-btn {
     padding-left: 1rem;
+    padding-bottom: 2rem;
 }
 
 /* -----------------   Services Section  ----------------- */
 .services {
-    padding-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    background-color: #D0ECF0;
 }
 
 .services .item{
@@ -124,13 +128,13 @@ body {
 .carousel{
   margin-top: 70px;
   padding-bottom: 2rem;
-  background-color: #666666;
+  background-color: #D0ECF0;
 }
 .carousel-inner{
   height: 100px;
 }
 .carousel-caption{
-  color: #fff;
+  color: #666666;
   font-style: italic;
   top: 50%;
   bottom: 50%;
@@ -140,13 +144,13 @@ body {
 
 /* -----------------   Partners Section  ----------------- */
 .partners {
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 
 
 
-/* -----------------   Welcome Section  ----------------- */
+/* -----------------   Contact Us Section  ----------------- */
 
 .contactus {
     padding-top: 7rem;
@@ -182,3 +186,7 @@ body {
 #contactusheader {
     padding-top: .5rem;
 }
+
+
+/* -----------------   Footer Section  ----------------- */
+
