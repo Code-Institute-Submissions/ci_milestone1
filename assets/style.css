@@ -149,9 +149,7 @@ body {
 
 .contactus {
     padding-top: 7rem;
-    padding-bottom: 5rem;
-    background-color: #eef8f9;
-
+    padding-bottom: 2rem;
 }
 
 .contactus .btn {
@@ -186,7 +184,10 @@ body {
 
 
 /* -----------------   Footer Section  ----------------- */
-
+footer {
+    background-color: #eef8f9;
+    padding-top: 2rem;
+}
 
 a.dark-grey-text {
     color: #666666;
