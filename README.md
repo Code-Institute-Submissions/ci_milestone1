@@ -1,4 +1,4 @@
-# Lennon Fitzgerald Accountants
+# Lennon Fitzgerald Accountants  
 This is a website for Lennon Fitzgerald Accountants, an accountancy practice that specialises in providing accounting and related services to not for profit organisations. It’s a niche practice with a team that are both qualified and have significant sector experience.
 ---
 
@@ -9,7 +9,8 @@ The main external users are potential clients. Potential clients visit the site 
 The other users are existing clients, giving them a place where they can go to get the contact details for the firm, learn more via articles, share its details with others and to learn if the firm offers other services that might be useful to them. Long term it could also even link to a client portal for clients e.g. where they could get a dashboard on their financials, raise queries through, etc.!
 ### Site owners and their goals
 The site owners are the firm’s owners. Their goal is to have a place where clients and potential clients can go to learn more about them and what they offer, and provide a pathway for them to go from a potential client to paying client. It is a way of both collecting and screening leads, and a place for creating a perception of expertise (and validation) in the marketplace via blog posts, etc.
-### Wireframe
+
+### Wireframe  
 Initial wireframe mock-ups were developed on Balsamiq. See [here](https://drive.google.com/open?id=1JvGdflXg_joDnUOBAT5wxtcLvbQ8TU1a)
 ---
 
@@ -38,7 +39,7 @@ The following tests were performed:
 * Potential clients
     * Walkthrough of book now / talk to us appointments
         * Each click goes to contact us form ✔️
-        * Tried to submit empty form and verified that an error message about the required fields appears✔️
+        * Tried to submit empty form and verified that an error message about the required fields appears ✔️
         * Tried to submit the form with an invalid email address and verified that a relevant error message appears ✔️
         * Tried to submit the form with all inputs valid and verify that a success message appears ✔️
     * Walkthrough of newsletter subscription 
@@ -47,10 +48,16 @@ The following tests were performed:
 * Existing clients
     * Clicked through of each services link to services page (within same tab) to ensure that it lands on new page and with service highlighted ✔️
     * Clicked home button to land back on landing page (and same tab)  ✔️
+* Developers
+    * Walkthrough each page on desktop, ipad and mobile  ✔  
+* Developers
+    * Checked files on github to check that it was saved to the repository ✔️
+    * Checked README.md file on github to ensure that explanation were given and in correct styling ✔️
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
- 
+
+<!-- In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet. -->
+
 ---
 
 ## Deployment
@@ -70,7 +77,11 @@ The photos used in this site were obtained from [pixabay.com](www.pixabay.com)
 The html and css in this section was largely copied from here and then amended and tailored by me for this firm’s needs
 
 ### Carousel
-Was taken from [here](https://codepen.io/Washable/pen/Oxqjbq?editors=1100) and tailored by me for website's needs
+Was taken from [here](https://codepen.io/Washable/pen/Oxqjbq?editors=1100) and tailored by me for the website's needs
+
+
+
+
 
  
 
