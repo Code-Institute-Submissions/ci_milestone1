@@ -1,30 +1,32 @@
+<!------------- Header ------------->
 # Lennon Fitzgerald Accountants  
 This is a website for Lennon Fitzgerald Accountants, an accountancy practice that specialises in providing accounting and related services to not for profit organisations. It’s a niche practice with a team that are both qualified and have significant sector experience.
----
 
+<!-------------  UX ------------->
 ## UX
 ### External users and their goals
 The main external users are potential clients. Potential clients visit the site to learn more about the organisation, to see if it is a fit for them and their needs, will they benefit and if so how to take action to start a relationship.
 
 The other users are existing clients, giving them a place where they can go to get the contact details for the firm, learn more via articles, share its details with others and to learn if the firm offers other services that might be useful to them. Long term it could also even link to a client portal for clients e.g. where they could get a dashboard on their financials, raise queries through, etc.!
+
 ### Site owners and their goals
 The site owners are the firm’s owners. Their goal is to have a place where clients and potential clients can go to learn more about them and what they offer, and provide a pathway for them to go from a potential client to paying client. It is a way of both collecting and screening leads, and a place for creating a perception of expertise (and validation) in the marketplace via blog posts, etc.
 
 ### Wireframe  
 Initial wireframe mock-ups were developed on Balsamiq. See [here](https://drive.google.com/open?id=1JvGdflXg_joDnUOBAT5wxtcLvbQ8TU1a)
----
 
+<!------------- Features ------------->
 ## Features
 ### Existing Features  
 * Feature 1 – Booking form – allows users to submit their contact details with a message to the firm requesting a consultation meeting
 * Feature 2 – Newsletter signup - allows users to sign up to the firm’s newsletter, thereby creating a leads list for the firm and allow external users who are not yet ready to commit to an appointment, to warm up to the firm’s services and assess them in part based on the quality of the newsletter
-### Features Left to Implement
+* ### Features Left to Implement
 * Replace the image in welcome section with a video created by the firm featuring members of it’s team, giving a brief overview of the firm, what it does and who it’s for. Once developed change this from hidden when looking on a mobile to visible.
 * Link in book an appointment buttons to calendly service or similar
 * Link in backend to newsletter sign up to newsweaver service or similar
 * Build in more content for site e.g. blog articles
----
 
+<!-------------  Tech used ------------->
 ## Technologies Used
 Languages, frameworks, libraries, and any other tools  used to construct this project. 
 * HTML
@@ -32,8 +34,8 @@ Languages, frameworks, libraries, and any other tools  used to construct this pr
 * [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * [JQuery](https://jquery.com/)
 The project uses JQuery to provide a navbar and a testimonial carousel.
----
 
+<!------------- Testing ------------->
 ## Testing
 The following tests were performed:
 * Potential clients
@@ -58,13 +60,11 @@ The following tests were performed:
 <!-- In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet. -->
 
----
-
+<!------------- Deployment ------------->
 ## Deployment
 This project was written on AWS educate on a macbook pro laptop. Git was used for version control and the repository was pushed to GitHub [here](https://github.com/lennoneb/ci_milestone1)
 
----
-
+<!------------- Credits ------------->
 ## Credits
 
 ### Content
