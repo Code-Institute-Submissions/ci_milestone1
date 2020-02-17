@@ -30,18 +30,19 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-cta  {
-    color: #fff!important;
+    color: #fff;
     font-weight: bold;
 }
 
 .navbar .navbar-nav .btn-light {
-    color: #fff!important;
-    background-color: #0393A7!important;
+    color: #fff;
+    background-color: #0393A7;
     border-radius: .4rem;
 }
 
 .navbar .navbar-nav .btn-light:hover {
-  background-color: #03a792!important; 
+  color: #fff;
+  background-color: #03a792; 
 }
 
 /* -----------------   Hero Section #0393A7 #03a792  ----------------- */
@@ -52,40 +53,27 @@ body {
     background-size: 100% 100%;
     padding-top: 17%;
     padding-bottom: 17%;
-    color: #fff!important;
+    color: #fff;
+    filter: grayscale(35%);
 }
    
 .jumbotron .btn-lg {
-    color: #fff!important;
-    background-color: #0393A7!important;
+    color: #fff;
+    background-color: #0393A7;
     border: none;
 }
 
 .jumbotron .btn-lg:hover {
-    background-color: #03a792!important;
+    background-color: #03a792;
     text-decoration: none;
 }
 
 /* -----------------   Welcome Section  ----------------- */
 .welcome {
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.welcome .btn {
-    color: #fff!important;
-    background-color: #0393A7!important;
-    border: none;
-}
-
-.welcome .btn:hover {
-  background-color: #24b541!important;
-  text-decoration: none;
-}
-
-.welcome .input-group-btn {
-    padding-left: 1rem;
-    padding-bottom: 2rem;
-}
 
 /* -----------------   Newsletter Sign Up Section  ----------------- */
 .newsletter {
@@ -100,20 +88,20 @@ body {
 }
 
 .newsletter .btn-primary {
-    color: #fff!important;
-    background-color: #038294!important;
+    color: #fff;
+    background-color: #038294;
     border: none;
 }
 
 .newsletter .btn-primary:hover {
-    background-color: #03a792!important;
+    background-color: #03a792;
     text-decoration: none;
 }
 
 /* -----------------   Services Section  ----------------- */
 .services {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background-color: #eef8f9;
 }
 
@@ -145,9 +133,43 @@ body {
 
 /* -----------------   Partners Section  ----------------- */
 .partners {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
 }
+
+.card-deck {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: justify;
+}
+
+
+.card-img-top {
+    filter: grayscale(75%);
+    max-height: 20rem;
+}
+
+.card-title {
+    text-align:center; 
+}
+
+.card-footer {
+    text-align:center;
+    font-size: 1rem;
+}
+
+.card .btn-lg {
+    color: #fff;
+    background-color: #0393A7;
+    border: none;
+}
+
+.card .btn-lg:hover {
+    
+    background-color: #03a792;
+    text-decoration: none;
+}
+
 
 /* -----------------   Carousel Section  ----------------- */
 .carousel{
@@ -171,13 +193,13 @@ body {
 }
 
 .contactus .btn {
-    color: #fff!important;
-    background-color: #0393A7!important;
+    color: #fff;
+    background-color: #0393A7;
     border: none;
 }
 
 .contactus .btn:hover {
-  background-color: #24b541!important;
+  background-color: #03a792; 
   text-decoration: none;
 }
 
