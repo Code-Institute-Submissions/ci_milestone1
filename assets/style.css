@@ -6,9 +6,7 @@ body {
     background-color: #ffffff;
 }
 
-
 /* -----------------   Navigation   ----------------- */
-
 .navbar {
     background-color: #fff;
 }
@@ -43,10 +41,10 @@ body {
 }
 
 .navbar .navbar-nav .btn-light:hover {
-  background-color: #24b541!important; 
+  background-color: #03a792!important; 
 }
 
-/* -----------------   Hero Section   ----------------- */
+/* -----------------   Hero Section #0393A7 #03a792  ----------------- */
 .jumbotron {
     background-image: url('images/hero_image.jpg');
     background-repeat: no-repeat;
@@ -64,15 +62,13 @@ body {
 }
 
 .jumbotron .btn-lg:hover {
-    background-color: #24b541!important;
+    background-color: #03a792!important;
     text-decoration: none;
 }
 
-
 /* -----------------   Welcome Section  ----------------- */
-
 .welcome {
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
 }
 
 .welcome .btn {
@@ -91,9 +87,32 @@ body {
     padding-bottom: 2rem;
 }
 
+/* -----------------   Newsletter Sign Up Section  ----------------- */
+.newsletter {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    background-color: #4bbdcd;
+}
+
+.newsletter_text {
+    font-style: italic;
+}
+
+.newsletter .btn-primary {
+    color: #fff!important;
+    background-color: #038294!important;
+    border: none;
+}
+
+.newsletter .btn-primary:hover {
+    background-color: #03a792!important;
+    text-decoration: none;
+}
+
 /* -----------------   Services Section  ----------------- */
 .services {
-    padding-top: 2rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: #eef8f9;
 }
@@ -124,8 +143,15 @@ body {
 	font-size: 1.5rem;
 }
 
+/* -----------------   Partners Section  ----------------- */
+.partners {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
 /* -----------------   Carousel Section  ----------------- */
 .carousel{
+  padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: #4bbdcd;
 }
@@ -138,15 +164,7 @@ body {
   bottom: 50%;
 }
 
-
-/* -----------------   Partners Section  ----------------- */
-.partners {
-    padding-top: 2rem;
-}
-
-
 /* -----------------   Contact Us Section  ----------------- */
-
 .contactus {
     padding-top: 7rem;
     padding-bottom: 2rem;
@@ -181,7 +199,6 @@ body {
 #contactusheader {
     padding-top: .5rem;
 }
-
 
 /* -----------------   Footer Section  ----------------- */
 footer {
